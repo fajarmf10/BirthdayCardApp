@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">Are You Curious Enough?</string>
+    <string name="splash">Launching...</string>
     <string name="hehe">Selamat Ulang Tahun!</string>
-    <string name="pesannya">Halo\\nnnewline\n\n\n\n3 newline loh\n\n\n2 newline\n\n\nah sudahlah, bingung eyke\n\n\nmas juan ganteng\n\n\n\nbikin startup yuk, anyone?\n\n\n\n\n\n\nhehe</string>
+    <string name="buttonmain">It\'s good to be curious</string>
+    <string name="string1">Happy 19th Birthday, Vania Ayu Puspamaniar!\n</string>
+    <string name="string2">May your coming year surprise you with the happiness of smiles, the feeling of love and so on. I hope you will find plenty of sweet memories to cherish forever.\n</string>
+    <string name="string3">On your special day, I wish you good luck. I hope this wonderful day will fill up your heart with joy and blessings. Have a fantastic birthday, celebrate the happiness on every day of your life.\n</string>
+    <string name="string4">May this birthday be filled with lots of happy hours and also your life with many happy birthdays, that are yet to come.\n</string>
+    <string name="string5">You are very special and that’s why you need to float with lots of smiles on your lovely face.\n</string>
+    <string name="string6">Special day, special person and special celebration. May all your dreams and desires come true in this coming year.\n</string>
+    <string name="string7">You are a person who always deserves the best and obviously nothing less. Wish your birthday celebration will be as fantastic as you are.\n</string>
+    <string name="string8">I want your birthday to be celebrated as a national holiday because then I’ll get a day off. Lol.\n</string>
+    <string name="string9">Another birthday, so you are growing older gradually. But I find no change in you. You look perfect like before.\n</string>
+    <string name="string10">Soon you’re going to start a new year of your life and I hope this coming year will bring every success you deserve.\n</string>
+    <string name="string11">Last but not last, again, Happy Birthday! I Love You So Much!</string>
+
 </resources>

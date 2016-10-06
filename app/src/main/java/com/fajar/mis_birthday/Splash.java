@@ -14,6 +14,7 @@ import android.os.Handler;
 import android.support.design.widget.Snackbar;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 public class Splash extends Activity {
@@ -23,10 +24,13 @@ public class Splash extends Activity {
         setContentView(R.layout.splash);
 
         View haha = findViewById(R.id.splashscreen);
+        ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar2);
+        progressBar.getIndeterminateDrawable().setColorFilter(Color.WHITE, android.graphics.PorterDuff.Mode.MULTIPLY);
+
         Snackbar snekbar = Snackbar.make(haha, "Launching the apps, please wait...", Snackbar.LENGTH_LONG);
         View viewnyasb = snekbar.getView();
         TextView viewteks = (TextView) viewnyasb.findViewById(android.support.design.R.id.snackbar_text);
-        viewteks.setTextColor(Color.MAGENTA);
+        viewteks.setTextColor(Color.WHITE);
         snekbar.show();
 
         int secondsDelayed = 1;

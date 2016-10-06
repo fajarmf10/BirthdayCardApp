@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-
-    <ImageView android:id="@+id/splashscreen"
-        android:layout_width="match_parent"
-        android:scaleType="centerCrop"
-        android:layout_height="match_parent"
-        android:src="@drawable/splash"
-        android:layout_gravity="center"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/splashscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#2196f3"
+    android:background="#2196f3"
+    android:backgroundTintMode="src_over">
 
     <ProgressBar
         style="?android:attr/progressBarStyleLarge"
@@ -23,13 +21,14 @@
         android:layout_marginBottom="73dp" />
 
     <TextView
-        android:text="Launching..."
+        android:text="@string/splash"
         android:gravity="center"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimary"
+        android:textColor="#ffff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/progressBar2"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView3" />
+
 </RelativeLayout>
